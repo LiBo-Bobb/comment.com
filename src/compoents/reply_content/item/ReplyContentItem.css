@@ -1,0 +1,100 @@
+.singleCommentBoxs {
+
+    display: flex;
+    margin: 15px 0;
+    /*border-bottom: 1px solid #ECECEC;*/
+    /*padding-bottom: 10px;*/
+    background: #fafafa;
+
+}
+
+.singleCommentBoxs .leftHeadImgs {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    padding-top: 25px;
+}
+
+.rightContentAreas {
+    width: 100%;
+    border-bottom: 1px solid #ECECEC;
+    padding: 25px 10px;
+
+}
+
+.rightContentAreas .firstLineContents {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rightContentAreas .firstLineContents .userNames {
+    color: #969696;
+    font-size: 12px;
+}
+
+.rightContentAreas .firstLineContents .goodMarks {
+    color: #969696;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    line-height: 100%;
+}
+
+.rightContentAreas .secondLineContents {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.rightContentAreas .secondLineContents .showTimes {
+    color: #C8C8C8;
+    font-size: 12px;
+}
+
+.rightContentAreas .secondLineContents .replyBtns {
+    color: #13B3F8;
+    font-size: 12px;
+}
+
+.commentContents {
+    color: #323232;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.commentInputBoxs {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.commentInputBoxs .comInputs {
+    height: 34px;
+    border: 1px solid #E6E6E6;
+    width: 60%;
+}
+
+.commentInputBoxs .comInputBtns {
+    width: 82px;
+    height: 34px;
+    background: #13B3F8;
+    text-align: center;
+    line-height: 34px;
+    color: white;
+    font-size: 12px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.replyCommentGoodMarkIcon {
+    width: 15px;
+    margin-right: 5px;
+}
+
+
+.replyGoodMarkCounts {
+    color: #969696;
+}

@@ -1,0 +1,41 @@
+.App {
+    padding: 15px;
+    margin-bottom: 60px;
+}
+
+.bottom_comment_btn {
+    height: 56px;
+    background: rgb(249, 249, 249);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.bottom_comment_btn .leftInput {
+    width: 75%;
+    height: 30px;
+    border: 1px solid rgb(236, 236, 236);
+    color: rgb(159, 159, 159);
+    line-height: 30px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    text-indent: 10px;
+    font-size: 14px;
+}
+
+.bottom_comment_btn .commentBtn {
+    width: 60px;
+    height: 30px;
+    background: #13B3F8;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+}

@@ -1,0 +1,120 @@
+.OneComponentBox {
+    display: flex;
+    max-width: 768px;
+    margin: 0 auto 26px;
+}
+
+.OneComponentBox .leftHeadImg {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.OneComponentBox .rightContentArea {
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 25px;
+
+}
+
+.OneComponentBox .rightContentArea .firstLineContent {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.OneComponentBox .rightContentArea .firstLineContent .userName {
+    color: #969696;
+    font-size: 12px;
+}
+
+.OneComponentBox .rightContentArea .firstLineContent .goodMark {
+    color: #969696;
+    font-size: 10px;
+    display: flex;
+}
+
+.OneComponentBox .rightContentArea .firstLineContent .goodMark .clickCommentBox {
+    display: flex;
+    margin-right: 19px;
+    align-items: center;
+}
+
+.OneComponentBox .rightContentArea .firstLineContent .goodMark .clickCommentBox .commentIcon {
+    width: 15px;
+    line-height: 100%;
+    margin-right: 10px;
+}
+
+.OneComponentBox .rightContentArea .firstLineContent .goodMark .clickGoodMarkBox {
+    display: flex;
+    align-items: center;
+}
+
+.OneComponentBox .rightContentArea .firstLineContent .goodMark .clickGoodMarkBox .goodMarkIcon {
+    width: 15px;
+    line-height: 100%;
+    margin-right: 10px;
+}
+
+.OneComponentBox .rightContentArea .firstLineContent .goodMark .clickGoodMarkBox .goodMarkCounts {
+
+}
+
+.OneComponentBox .rightContentArea .secondLineContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.OneComponentBox .rightContentArea .secondLineContent .showTime {
+    color: #C8C8C8;
+    font-size: 12px;
+}
+
+.OneComponentBox .rightContentArea .secondLineContent .replyBtn {
+    color: #969696;
+    font-size: 12px;
+}
+
+.OneComponentBox .commentContentBox {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.OneComponentBox .commentContentBox .content {
+    color: #323232;
+    font-size: 16px;
+    /*width: 80%;*/
+}
+
+.OneComponentBox .commentContentBox .deleteBtn {
+    color: #15B8FF;
+    font-size: 12px;
+}
+
+.OneComponentBox .commentInputBox {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.OneComponentBox .commentInputBox .comInput {
+    height: 34px;
+    border: 1px solid #E6E6E6;
+    width: 60%;
+}
+
+.OneComponentBox .commentInputBox .comInputBtn {
+    width: 82px;
+    height: 34px;
+    background: #13B3F8;
+    text-align: center;
+    line-height: 34px;
+    color: white;
+    font-size: 12px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
